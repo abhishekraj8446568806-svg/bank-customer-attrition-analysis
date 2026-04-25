@@ -3,7 +3,7 @@
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv("https://gitlab.crio.do/me_notebook/me_jupyter_bankattritionanalysis/-/raw/master/bank_dataset_v2.csv",header=0,skiprows=[1])
+df = pd.read_csv("bank_dataset_v2.csv",header=0,skiprows=[1])
 
 # Display the first few rows
 print(df.head())
